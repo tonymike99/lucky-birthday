@@ -6,3 +6,5 @@ Problem Statement
     And his/her lucky number.
     Now, find out if the sum of digits of birthday is divisible by the lucky number.
     Show the result to the user.
+
+Access it on https://lucky-birthday-finder.netlify.app/
