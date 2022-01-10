@@ -1,6 +1,6 @@
-let btn = document.querySelector('#btn');
+const btn = document.querySelector('#btn');
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', () => {
     let dob = document.querySelector('#dob1');
     let luckyNumber = document.querySelector('#luckyNumber1');
 
@@ -28,7 +28,7 @@ btn.addEventListener('click', function () {
 
     let sum = 0;
 
-    let numbersArray = dob.match(/\d/g);
+    const numbersArray = dob.match(/\d/g);
     // console.log(numbersArray);
 
     for (let number of numbersArray) {
